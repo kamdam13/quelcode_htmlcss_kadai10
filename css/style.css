@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* 共通 */
+html,body{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #393939;
+  background-color: #fff;
+}
+
+body,div,p,ul{
+  margin: 0;
+  padding: 0;
+}
+
+p,li{
+  line-height: 1.8;
+}
+
+a{
+  color: #666666;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* ヘッダー */
+
+nav{
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list{
+  display: flex;
+  list-style: none;
+  font-size: 13px;
+}
+
+.nav-list li{
+  margin: auto 0;
+  margin-right: 20px;
+}
+
+.nav-list li:last-child{
+  margin-right: 0;
+}
+
+.fa-th{
+  padding-top: 3px;
+  font-size: 18px;
+}
+
+.fa-user-circle{
+  font-size: 32px;
+}
