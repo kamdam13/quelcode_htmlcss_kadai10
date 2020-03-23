@@ -164,6 +164,10 @@ footer{
   margin: 10px 30px;
 }
 
+.footer-list a:focus{
+  color: #DD4B39;
+}
+
 .footer-list li{
   margin-right: 16px;
   font-size: 13px;
