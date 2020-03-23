@@ -13,6 +13,12 @@ body,div,p,ul{
   padding: 0;
 }
 
+body{
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
 p,li{
   line-height: 1.8;
 }
@@ -56,4 +62,38 @@ nav{
 
 .fa-user-circle{
   font-size: 32px;
+}
+
+/* フッター */
+footer{
+  margin-top: auto;
+  background: #f2f2f2;
+  border-top: 1px solid #dfdfdf;
+}
+
+.footer-list-container{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dfdfdf;
+}
+
+.footer-location{
+  color: #666666;
+  margin:5px 30px;
+}
+
+.footer-list{
+  display: flex;
+  list-style: none;
+  margin: 10px 30px;
+}
+
+.footer-list li{
+  margin-right: 16px;
+  font-size: 13px;
+  margin: 0 30px 0 0;
+}
+
+.footer-list li:last-child{
+  margin-right: 0;
 }
